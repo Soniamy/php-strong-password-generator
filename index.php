@@ -9,8 +9,24 @@
     <title>PW Generator</title>
 </head>
 <body>
-       <h1>
-        Ciao
-       </h1>
+       <h1 class="py-5 text-center title">STRONG PASSWORD GENERATOR</h1>
+         
+       <div class="container flex-column py-5">
+        
+            <form action="index.php" method="GET">
+       
+                <div class="col">
+                    <label for="bcharactersNumber" class="form-label subtitle">Inserisci lunghezza caratteri della password generata.</label>
+                    <div class="input-group mb-3 w-50 m-auto">
+                        <input type="number" id="charactersNumber" name="charactersNumber" class="form-control text-center"  placeholder="Inserisci un numero">
+                    </div>
+                </div>
+
+                <div class="col d-flex justify-content-center py-3">
+                    <button class="btn btn-info" type="submit">GENERA</button>
+                </div>
+            </form>
+        </div>
+
 </body>
 </html>
