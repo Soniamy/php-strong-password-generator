@@ -1,4 +1,5 @@
 <?php
+
 $passwordLenght = $_GET['charactersNumber'];
 
 function generatePassword($numb)

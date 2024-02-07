@@ -16,7 +16,7 @@ require __DIR__ . '/functions.php';
          
        <div class="container flex-column py-5">
         
-            <form action="index.php" method="GET">
+            <form action="password.php" method="GET">
        
                 <div class="col">
                     <label for="bcharactersNumber" class="form-label subtitle">Inserisci lunghezza caratteri della password generata.</label>
@@ -29,14 +29,7 @@ require __DIR__ . '/functions.php';
                     <button class="btn btn-info" type="submit">GENERA</button>
                 </div>
             </form>
-            <div>
-               <h4>
-                 <?php
-                  $passwordGenerated = generatePassword($passwordLenght);
-                   echo 'Ecco la tua password: ' . $passwordGenerated;
-                    ?>
-               </h4>
-            </div>
+    
         </div>
 
 </body>
